@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <title>
+               Contact Us
+          </title>
+          <meta charset="UTF-8">
+          <link rel="icon" href="tacos.jpg">
+          <link rel="stylesheet" href="main.css">
+     </head>
+     <body>
+          <h1>
+               Contact Us
+          </h1>
+          <nav>
+               <ul>
+                    <li>
+                         <a href="tacofirstpage.html">Home</a>
+                    </li>
+                    <li>
+                         <a href="tacofirstpage.html">About LTS</a>
+                    </li>
+                    <li>
+                         <a href="tacofirstpage.html">Our menu</a>
+                    </li>
+                    <li>
+                         <a href="#Feedback">Feedback</a>
+                    </li>
+                    <li>
+                         <a href="#contact form">Contact</a>
+                    </li>
+               </ul>
+          </nav>
+          <figure>
+               <img src="tacos3.jpg" alt="Tacos" title="This is delicious Tacos" width="280" height="220">
+               <figcaption>
+                    A tray  of tasty tacos
+               </figcaption>
+          </figure>
+          <article id="Feedback">
+               <p>
+               <form action="https://httpbin.org/get">
+                    <fieldset>
+                         <legend>
+                              Feedback
+                         </legend>
+                         
+                         <input type="radio" name="foodreview" id="vgood" value="vgood">
+                         <label for="vgood">Very Good!!!</label>
+                    </p>
+                    <p>
+                         <input type="radio" name="foodreview" id="good" value="good">
+                         <label for="good">Good!</label>
+                    </p>
+                    <p>
+                         <input type="radio" name="foodreview" id="fair" value="fair">
+                         <label for="fair">Fair!!!</label>
+                    </p>
+                    <p>
+                         <input type="radio" name="foodreview" id="okayish" value="okayish">
+                         <label for="okayish">Okayish!!!</label>
+                    </p>
+                    </fieldset>
+               </form>
+          </article>
+          <hr>
+          <h2>
+               Our Contact Form
+          </h2>
+          <article id="contact form">
+               <p>
+               <form action="https://httpbin.org/get" target="_blank">
+               <fieldset>
+                    <legend>
+                         Send us  message
+                    </legend>
+                    
+               <label for="name">Name : </label>          
+               <input type="text" name="name" id="name" placeholder="Enter Your Name" required autocomplete="off ">
+               </p>
+               <p>
+               <label for="Em">Email : </label>
+               <input type="text" name="em" id="em" placeholder="Enter you Email id" required autocomplete="off ">
+          </p>
+          <p>
+               <label for="phone">Phone :</label>
+               <input type="tel" name="phone" title="phone" id="phone" placeholder="Enter your phone number" pattern= "[0-9]{3}[0-9]{3}[0-9]{4}"autocomplete="off"required>    
+          </p>
+          <p> 
+               <label for="msg">Your Message</label>
+               <br>
+               <textarea type="text" name="msg" title="msg" id="msg" rows="10" cols="20" placeholder="Tell Us How Your Experience in This Shop" autocomplete="off "></textarea>
+          </p>
+          <button type="submit">Submit :</button>
+          <button type="reset">Reset :</button>
+          </form>
+     </fieldset>
+    
+          </article>
+          <br>
+<a href="#">Back to the top</a>
+<hr>
+<address>
+
+     &copy; Copyright The little Tacos Shop
+</address>
+     </body>
+</html>
